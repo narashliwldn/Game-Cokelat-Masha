@@ -35,6 +35,7 @@ public class PlayerScript : MonoBehaviour
         else if(Input.GetKeyUp(KeyCode.LeftArrow) || Input.GetKeyUp(KeyCode.RightArrow)){
             farahAnimator.SetBool("isWalking",false);
         }
+        //semangat
 
         if(Input.GetKeyDown(KeyCode.UpArrow)){
             farahAnimator.SetTrigger("isJumping");
